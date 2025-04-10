@@ -4,6 +4,7 @@ import 'dart:typed_data';
 import 'package:web/web.dart';
 import 'package:webview_flutter_platform_interface/webview_flutter_platform_interface.dart';
 
+
 /// Factory class for creating web requests.
 class HttpRequestFactory {
   /// Creates a [HttpRequestFactory].

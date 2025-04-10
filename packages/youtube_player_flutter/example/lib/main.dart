@@ -391,9 +391,7 @@ class _MyHomePageState extends State<MyHomePage> {
         return Colors.yellow;
       case PlayerState.cued:
         return Colors.blue[900]!;
-      default:
-        return Colors.blue;
-    }
+      }
   }
 
   Widget get _space => const SizedBox(height: 10);
